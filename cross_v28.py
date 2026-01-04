@@ -230,5 +230,4 @@ if st.session_state.is_running:
 
     st.divider()
     st.subheader("📊 주행 분석 및 법규 교육 리포트")
-
     st.table(db.get_final_report())
