@@ -22,7 +22,7 @@ st.markdown("""
     }
     </style>
     <div class="main-title">
-        [2026학년도 1학기 제주대학교 전임교원 공개강의] 우회전 알고리즘 시뮬레이션
+        [2026-1학기 제주대학교 전임교원 공개강의] 우회전 알고리즘 시뮬레이션
     </div>
     """, unsafe_allow_html=True)
 
@@ -230,4 +230,5 @@ if st.session_state.is_running:
 
     st.divider()
     st.subheader("📊 주행 분석 및 법규 교육 리포트")
+
     st.table(db.get_final_report())
